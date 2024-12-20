@@ -1,0 +1,24 @@
+# Training hyperparameters
+epochs: 15
+learning_rate: 0.01
+momentum: 0.9
+weight_decay: 0.0001
+batch_size: 128
+
+# Model parameters
+dropout_rate: 0.1
+initial_channels: 8
+
+# Data parameters
+train_data_path: '../data'
+test_data_path: '../data'
+normalize_mean: 0.1307
+normalize_std: 0.3081
+rotation_degrees: 7
+
+# Hardware settings
+num_workers: 1
+pin_memory: true
+
+#seed
+manual_seed: 1
